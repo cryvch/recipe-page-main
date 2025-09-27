@@ -14,7 +14,6 @@ This is a solution to the **Recipe Page** challenge on [Frontend Mentor](https:/
 - [Features](#features)
 - [How to Run the Project](#how-to-run-the-project)
 - [What I Learned](#what-i-learned)
-- [Future Improvements](#future-improvements)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
