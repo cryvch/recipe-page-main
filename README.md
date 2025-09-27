@@ -62,12 +62,20 @@ Alternatively, use a live development server (such as the Live Server extension 
 
 ## What I Learned
 
-How to structure semantic HTML for better accessibility and clarity
+- How to structure semantic HTML for better accessibility and clarity
 
-Applying local fonts with @font-face
+- Applying local fonts with @font-face
 
-Matching design spacing and layout precisely with CSS
+- Matching design spacing and layout precisely with CSS
 
-Creating responsive layouts without frameworks
+- Creating responsive layouts without frameworks
 
-Deploying static projects using Vercel
+- Deploying static projects using Vercel
+
+## Acknoledgements
+
+- Challenge by Frontend Mentor
+
+- Coded by cryvch
+
+- Hosted on Vercel
