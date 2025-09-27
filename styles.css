@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Young Serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+/* base styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: hsl(30, 54%, 90%); /* stone 100 */
+    color: hsl (30, 10%, 34%); /* stone 600 */
+    padding: 2rem;
+}
+
+/* header stylings */
+
+h1, h2, h3 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%); /*stone 900 */
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2, h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* image styling */
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+/* container */
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%); /* white */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* header tagline styling */
+
+header .tagline {
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    margin-top: 1rem;
+}
+
+/* sections styling */
+
+.ingredients ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.ingredients ul li {
+    margin-bottom: 0.5rem;
+}
+
+.preparation ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+}
+
+.preparation ol li {
+    margin-bottom: 0.5rem;
+}
+
+/* sidebar styling */
+
+.sidebar {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.instructions p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* nutrition table */
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.nutrition th {
+    text-align: center;
+    background-color: hsl(330, 100%, 98%); /* rose */
+    padding: 0.75rem;
+    font-weight: 600;
+    color: hsl(30, 18%, 87%); /* rose 800 */
+}
+
+.nutrition td {
+    padding: 0.75rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%); /* stone */
+}
+
+.nutrition td:first-child {
+    color: hsl(30, 10%, 34%); /* stone 600 */
+}
+
+.nutrition td:last-child {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%); /* brown 800 */
+}
+
+.attribution {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 4rem;
+    color: hsl(30, 10%, 34%); /* stone 600 */
+}
+
+.attribution a {
+    color: hsl(332, 51, 32); /* fuschia-ish */
+    text-decoration: none;
+}
