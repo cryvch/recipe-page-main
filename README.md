@@ -54,7 +54,8 @@ To run this project locally:
    git clone https://github.com/cryvch/recipe-page-main.git
 
 2. Navigate into the project folder:
-   ```cd recipe-page-main
+   ```bash
+   cd recipe-page-main
 
 3. Open index.html in your web browser.
 
